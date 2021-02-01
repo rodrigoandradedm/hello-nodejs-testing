@@ -11,6 +11,12 @@ pipeline {
                 sh 'yarn'
                 sh 'yarn run test | ./node_modules/tap-junit/bin/tap-junit --output output/test'
             }
+            post {
+                always {
+                    junit 'output/test/*.xml'
+                }
+            }
+
         }
     }
 }
