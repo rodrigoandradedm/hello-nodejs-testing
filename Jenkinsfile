@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        node 'node:latest'
+    }
     stages {
         stage('Test') {
             steps {
