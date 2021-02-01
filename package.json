@@ -16,9 +16,12 @@
   "devDependencies": {
     "eslint": "^0.10.0",
     "istanbul": "^0.3.2",
+    "tap-junit": "^4.1.0",
     "tape": "^3.6.1"
   },
   "dependencies": {
-    "istanbul-api": "^3.0.0"
+    "istanbul-api": "^3.0.0",
+    "tape-junit": "^0.4.0",
+    "yarn": "^1.22.10"
   }
 }

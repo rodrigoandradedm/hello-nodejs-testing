@@ -878,6 +878,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+tape-junit@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/tape-junit/-/tape-junit-0.4.0.tgz#1826986c9b62cad318e9409e806d8c48fc792e70"
+  integrity sha1-GCaYbJtiytMY6UCegG2MSPx5LnA=
+  dependencies:
+    glob "~3.2.9"
+
 tape@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/tape/-/tape-3.6.1.tgz#4893dd53e280a5f58c0ceb30c2c0ebb3bcd51e1f"
@@ -959,3 +966,8 @@ xml-escape@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/xml-escape/-/xml-escape-1.0.0.tgz#00963d697b2adf0c185c4e04e73174ba9b288eb2"
   integrity sha1-AJY9aXsq3wwYXE4E5zF0upsojrI=
+
+yarn@^1.22.10:
+  version "1.22.10"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.10.tgz#c99daa06257c80f8fa2c3f1490724e394c26b18c"
+  integrity sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA==
