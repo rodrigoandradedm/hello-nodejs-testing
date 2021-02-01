@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        node 'node:15.7.0-buster'
+        node 'node:14.15.4'
     }
     stages {
         stage('Test') {
